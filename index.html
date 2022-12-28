@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./listen.png" type="image/x-icon">
+    <title>The Real Sound</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="./logo.png" alt="" class="logo">
+            <img src="./menu.jpeg" alt="" class="menu" onclick="togglemenu()">
+            <ul  id="menulist">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SPECIFICATIONS</a></li>
+                <li><a href="#">PRODUCTS</a></li>
+                <!-- <li><a href="#">CONNECT</a></li> -->
+            </ul>
+        </div>
+        <div class="content">
+            <div class="left-col">
+                <h1>THE<br> REAL<br> SOUND</h1>
+            </div>
+            <div class="right-col" >
+                <p id="text">Click Here to Play</p>
+                <img src="./play.png" alt="" id="play">
+            </div>
+        </div>
+    </div>
+    <audio src="./mc-quattro-beats-beats-ufo-rage-cyberpunk-2022-13551.mp3" type="audio/mp3" id="mysong">
+        
+    </audio>
+
+    <script src="./index.js">
+    </script>
+
+</body>
+
+</html>
